@@ -1,0 +1,6 @@
+packages:
+  - 'packages/**'   # packages 目录下的所有子目录
+  - 'play/**'       # play 运行
+  - 'scripts/**'    # scripts 脚本
+  - 'examples/**'   # examples 示例
+  - 'docs/**'       # docs 文档

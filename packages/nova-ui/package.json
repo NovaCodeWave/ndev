@@ -1,0 +1,17 @@
+{
+  "name": "@nova-ui/components",
+  "version": "1.0.0",
+  "description": "Nova UI components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nova",
+    "ui",
+    "nova-ui",
+    "components"W
+  ],
+  "author": "Nova Team",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "NovaCodeWave Monorepo",
+  "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
+    "dev:play": "pnpm -C play dev",
+    "typecheck:node": "tsc -p tsconfig.node.json --noEmit",
+    "typecheck:web": "vue-tsc -p tsconfig.web.json --composite false --noEmit",
+    "typecheck:play": "vue-tsc -p tsconfig.play.json --composite false --noEmit",
+    "typecheck:all": "pnpm run typecheck:web && pnpm run typecheck:play && pnpm run typecheck:node"
+  },
+  "keywords": [
+    "nova",
+    "wave",
+    "code",
+    "monorepo",
+    "nova-codewave-monorepo"
+  ],
+  "author": "NovaCodeWave",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@nova/utils": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@nova/utils",
+  "version": "1.0.0",
+  "description": "Nova Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nova",
+    "utils"
+  ],
+  "author": "Nova Team",
+  "license": "ISC"
+}
